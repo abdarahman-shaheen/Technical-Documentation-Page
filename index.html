@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+     <header >HTML Documentation</header>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+      <a class="nav-link" href="#Html_elements">Html_elements</a>
+      <a class="nav-link" href="#Attributes">Attributes</a>
+      <a class="nav-link" href="#Headings_and_Paragraphs"> Headings_and_Paragraphs</a>
+      <a class="nav-link" href="#List">List</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          HTML (HyperText Markup Language) is the most basic building block of
+          the Web. It defines the meaning and structure of web content. Other
+          technologies besides HTML are generally used to describe a web page's
+          appearance/presentation (CSS) or functionality/behavior (JavaScript).
+          "Hypertext" refers to links that connect web pages to one another,
+          either within a single website or between websites. Links are a
+          fundamental aspect of the Web. By uploading content to the Internet
+          and linking it to pages created by other people, you become an active
+          participant in the World Wide Web. HTML uses "markup" to annotate
+          text, images, and other content for display in a Web browser. HTML
+          markup includes special "elements" such as " head, title, body,
+          header, footer, article, section, p, div, and many others.
+        </p>
+
+        <code>&lt;!DOCTYPE html&gt;</code>
+        <code>&lt;html&gt;</code>
+        <code>&lt;head&gt;</code>
+        <code>&lt;title&gt;Technical Documentation&lt;/title&gt;</code>
+        <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+        <code>&lt;/head&gt;</code>
+        <code>&lt;body&gt;</code>
+      </section>
+      <section class="main-section" id="Html_elements">
+        <header>Html_elements</header>
+        <h3>Let's explore this paragraph element a bit further.</h3>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics/grumpy-cat-small.png"/>
+        <p>
+            <ol>
+                <li><b>opening tag:</b>  This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.</li>
+                <li><b>The closing tag:</b> This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.</li>
+                <li><b>The content:</b> This is the content of the element, which in this case, is just text.
+                </li>
+                <li><b>The element:</b> The opening tag, the closing tag, and the content together comprise the element.
+                </li>
+            </ol>
+        </p>
+
+  
+      </section>
+      <section class="main-section" id="Attributes">
+        <header>Attributes</header>
+        <h3>Elements can also have attributes. Attributes look like this:
+        </h3>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-attribute-small.png"/>
+        <p>Attributes contain extra information about the element that won't appear in the content. In this example, the class attribute is an identifying name used to target the element with style information.
+            <h4> An attribute should have:</h4>
+            <ul>
+               
+                <li>A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)</li>
+                <li>The attribute name, followed by an equal sign.</li>
+                <li>An attribute value, wrapped with opening and closing quote marks.
+                </li>
+            </ul>
+        </p>
+      </section>
+      <section class="main-section" id="Headings_and_Paragraphs">
+        <header> Headings_and_Paragraphs</header>
+        <h2>Paragraphs</h2>
+        <p>
+            Most structured text consists of headings and paragraphs, whether you are reading a story, a newspaper, a college textbook, a magazine, etc.
+        </p>
+        <img src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/HTML_text_fundamentals/newspaper_small.jpg"/>
+        
+        <p>
+            Structured  In HTML, each paragraph has to be wrapped in a "p" element,
+        </p>
+        <h2>Headings</h2>
+
+        <p>
+            There are six heading elements: h1, h2, h3, h4, h5, and h6. Each element represents a different level of content in the document; "h1" represents the main heading, "h2" represents subheadings, "h3" represents sub-subheadings, and so on.
+        </p>
+        <p>
+       It's really up to you what the elements involved represent, as long as the hierarchy makes sense. You just need to bear in mind a few best practices as you create such structures:
+       <ul>
+        <li>Preferably, you should use a single "h1" per page—this is the top level heading, and all others sit below this in the hierarchy.</li>
+        <li>Make sure you use the headings in the correct order in the hierarchy. Don't use "h3" elements to represent subheadings, followed by "h2" elements to represent sub-subheadings—that doesn't make sense and will lead to weird results.</li>
+        <li>Of the six heading levels available, you should aim to use no more than three per page, unless you feel it is necessary. Documents with many levels (for example, a deep heading hierarchy) become unwieldy and difficult to navigate. On such occasions, it is advisable to spread the content over multiple pages if possible</li>
+       </ul>
+        </p>
+   
+      </section>
+      <section class="main-section" id="List">
+        <header>List</header>
+        <p>
+            Now let's turn our attention to lists. Lists are everywhere in life—from your shopping list to the list of directions you subconsciously follow to get to your house every day, to the lists of instructions you are following in these tutorials! Lists are everywhere on the web, too, and we've got three different types to worry about.
+        </p>
+        <h3>Unordered</h3>
+        <p>
+            Unordered lists are used to mark up lists of items for which the order of the items doesn't matter. Let's take a shopping list as an example:
+            <br>
+           <br>- milk
+           <br>- eggs
+           <br>- bread
+           <br>- hummus
+           <br> Every unordered list starts off with a "ul" element—this wraps around all the list items and The last step is to wrap each list item in a "li" (list item) element
+        </p>
+        <br>
+        <h3>Ordered</h3>
+        <p>Ordered lists are lists in which the order of the items does matter.
+            example:<br>1- milk<br>2- eggs
+            <br>The markup structure is the same as for unordered lists, except that you have to wrap the list items in an "o"element </p>
+      </section>
+    </main>
+  </body>
+</html>
